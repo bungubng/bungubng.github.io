@@ -1,0 +1,43 @@
+:root {
+    --snow: #fcf7f8;
+    --pale_slate: #ced3dc;
+    --lilac_ash: #aba9c3;
+    --tech_blue: #275dad;
+    --blue_slate: #5b616a;
+}
+
+body {
+    position: relative;
+    
+    background-color: var(--pale_slate);
+
+    min-height: 100vh;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0;
+    padding: 0;
+}
+
+.main_content {
+    width: 450px;
+    padding: 50px;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 50px;
+
+}
+
+.sub_content {
+    width: 200px;
+    padding: 50px;
+
+    margin-left: 100px;
+}
+
+.animated {
+    position: absolute;
+    left: 900px;
+    bottom: 250px;
+}
